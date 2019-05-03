@@ -1,0 +1,619 @@
+/*Global*/
+
+
+h4 {
+	font-size: 1.6em;
+}
+h5 {
+	font-size: .9em;
+}
+h6 {
+	font-size: 1.4em;
+	font-weight: 400;
+}
+small {
+	color: #808080;
+}
+
+/*.row {
+	border: 1px solid blue;
+}
+
+.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
+    border: 1px solid green;
+}
+
+section {
+	border: 1px dashed red;
+}*/
+
+/*header section*/
+.logo {
+	height: 100px;
+	background-image: url(../img/mainlogo.png);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.site-title h1 {
+	font-size: 1.5em;
+	/*padding-top: 1.8em;*/
+}
+
+.social-icon, .site-title, .sales {
+	padding: 2em 5px;
+}
+
+.fa-facebook-square {
+	color: #2360bb;
+}
+
+.fa-twitter-square {
+	color: #1da1f4;
+}
+
+.fa-google-plus-square {
+	color: #dd4d24;
+}
+
+.chatbox {
+	vertical-align: 5%; 
+}
+
+/*banner section*/
+.left-img {
+	height: 420px;
+	background: url(../img/bannercar.png);
+	background-position: bottom;
+	background-repeat: no-repeat;
+	background-size: 400px;
+	padding-top: 5%;
+}
+.left-img h1 {
+	margin-top: 2%;
+}
+
+.right-img {
+	height: 420px;
+	background: url(../img/family.png);
+	background-position: bottom;
+	background-repeat: no-repeat;
+	background-size: contain;
+	padding-top: 5%;
+}
+
+/*feature01 secrion*/
+section#features {
+	background-color: #eeeeee;
+	padding-bottom: 5%;
+}
+
+.f-btn {
+	width: 100%;
+	margin: 8% 0%;
+	padding: 1em;
+}
+
+
+a:not([href]):not([tabindex]) {
+    color: #fff;
+    text-decoration: none;
+}
+
+.sec  {
+	background-color: #fff;
+	padding: 4em 0;
+	border-left: 15px solid #eeeeee;
+	border-right: 15px solid #eeeeee;
+}
+
+.sec01 ul {
+	list-style: none;
+	color: #808080;
+	padding-left: 0;
+	line-height: 1.8em;
+
+}
+
+.sec02 {
+	background: url(../img/car01.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 90%;
+	padding-bottom: 1rem;
+}
+
+.sec03::before, .sec04::before {
+	display: block;
+	content: "";
+	height: 50px;
+	color: red;
+}
+
+.sec02 h5, .sec03 h5, .sec04 h5 {
+	margin-top: 124%;
+}
+
+.sec > div > p {
+	margin-bottom: 2px;
+}
+
+.sec03 {
+	background: url(../img/car02.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 90%;
+	padding-bottom: 1rem;
+}
+
+.sec04 {
+	background: url(../img/car03.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 90%;
+	padding-bottom: 1rem;
+}
+
+/*feature02 secrion*/
+
+#features02 {
+	background-color: #333333;
+}
+
+.fea-02 {
+	padding: 3.5rem 0;
+	text-align: center;
+	margin-left: 10%;
+	
+}
+
+.car-l {
+	height: 300px;
+	background: url(../img/carLeft.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	padding: 3% ;
+	border: 10px solid #fff;
+}
+
+
+.spacer {
+	height: 300px;
+	background: url(../img/spacer.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 50px 300px;
+	text-align: center;
+}
+
+.car-r {
+	/*margin-left: 2%;*/
+	text-align: left;
+	color: #fff;
+	background-color: #017cc2;
+	padding: 3% 5px;
+	border: 10px solid #0066a0;
+}
+
+
+
+.car-r small {
+	color: #fff;
+}
+
+/*footer area*/
+
+footer{
+	padding: 2%;
+	background-color: #017cc2;
+}
+
+
+.footer01 > div > p {
+	color: #808080;
+	font-size: .9em;
+	
+}
+
+.pixel {
+	background: url(../img/pmlogo.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 180px 30px;
+}
+
+
+.footer02 {
+	margin: auto;
+	text-align: center;
+	padding: 2.5rem 0;
+}
+
+.footer02 small {
+	color: #fff;
+}
+
+
+/*
+*-------------------------------------------------------
+*Media Query
+--------------------------------------------------------*/
+ 
+/* iPad Pro*/
+
+ @media only screen 
+  and (max-device-width: 1024px) {
+
+
+  		/*features02 section*/
+
+  		ul.navbar-nav {
+			font-size: 0.7em;
+			margin-left: 10%;
+		}
+
+		.fea-02 > div {
+			margin: 2% 0;
+		}
+		.fea-02 {
+    		padding: 3.5rem 0;
+    		text-align: center;
+    		margin-left: 10%;
+		}
+
+		.spacer {
+			display: block;
+		}
+
+		.fea-02 > div {
+			margin: 2% 0;
+		}
+
+		/*footer section*/
+  		.pixel {
+	  		height: 50px;
+			background: url(../img/pmlogo.png);
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: contain;
+			padding: 2%;
+			
+		}
+		.footer01 > div > p {
+			text-align: center;
+			font-size: .9em;
+		
+		}
+
+  }
+
+/*iPad mini*/
+@media only screen 
+  and (max-device-width: 768px) {
+
+  		/*global*/
+  		.container {
+  			text-align: center;
+  		}
+
+  		.offset-3 {
+  			margin-left: 0;
+  		}
+
+  		/*heading*/
+
+  		.logo {
+			left: 10px;
+		    clear: both;
+		    position: absolute;
+		    float: left;
+		    background-image: url(../img/mainlogo.png);
+		    background-position: left center;
+		    background-repeat: no-repeat;
+
+		}
+
+		.site-title {
+		    padding: 0;
+		    float: right;
+		    display: block;
+		    margin-left: 100px;
+		    font-size: 14px;
+		    text-align: right;
+		}
+
+		.social-icon, .sales {
+			padding: 0;
+			text-align: right;
+		}
+
+
+		.sales p, .social-icon {
+			margin-left: 100px;
+		}
+
+		ul.navbar-nav {
+			font-size: 0.6em;
+		}
+
+		.right-img {
+			display: none;
+		}
+
+		/*features section*/
+
+		.f-btn {
+			margin: 2% 0;
+		}
+
+		.sec > div {
+			margin: 2% 0;
+			font-size: 1.6em;
+		}
+
+		.sec02 h5, .sec03 h5, .sec04 h5 {
+			margin-top: 60%;
+		}
+
+		/*features02 section*/
+
+		.fea-02 > div {
+			margin: 2% 0;
+		}
+		.fea-02 {
+    		padding: 3.5rem 0;
+    		text-align: center;
+    		margin-left: 0;
+		}
+
+		.spacer {
+			display: none;
+		}
+
+		.fea-02 > div {
+			margin: 2% 0;
+		}
+
+		.car-l {
+			font-size: 1.6em;
+		}
+
+		/*footer section*/
+  		.pixel {
+	  		height: 50px;
+			background: url(../img/pmlogo.png);
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: contain;
+			padding: 2%;
+			margin-left: 0;
+		}
+		.footer01 > div > p {
+			text-align: center;
+			font-size: .9em;
+		}
+}
+
+
+/*Galaxy S5*/
+
+@media only screen 
+  and (max-device-width: 360px) {
+
+  		/*global*/
+  		.container {
+  			text-align: center;
+  		}
+
+  		.offset-3 {
+  			margin-left: 0;
+  		}
+
+  		/*heading*/
+
+  		.logo {
+			left: 10px;
+		    clear: both;
+		    position: absolute;
+		    float: left;
+		    
+		    background-image: url(../img/mainlogo.png);
+		    background-position: left center;
+		    background-repeat: no-repeat;
+
+		}
+
+		.site-title {
+		    padding: 0;
+		    float: right;
+		    display: block;
+		    margin-left: 100px;
+		    font-size: 14px;
+		    text-align: left;
+		}
+
+		.social-icon, .sales {
+			padding: 0;
+			text-align: left;
+		}
+
+
+		.sales p, .social-icon {
+			margin-left: 100px;
+		}
+
+		.li {
+			text-align: left;
+		}
+
+		ul.navbar-nav {
+			font-size: 0.7em;
+		}
+
+		.right-img {
+			display: none;
+		}
+
+		/*features section*/
+
+		.f-btn {
+			margin: 2% 0;
+		}
+
+		.sec > div {
+			margin: 2% 0;
+		}
+
+		.sec02 h5, .sec03 h5, .sec04 h5 {
+			margin-top: 80%;
+		}
+
+		/*features02 section*/
+
+		.fea-02 > div {
+			margin: 2% 0;
+		}
+		.fea-02 {
+    		padding: 3.5rem 0;
+    		text-align: center;
+    		margin: 0;
+		}
+
+		.spacer {
+			display: none;
+		}
+
+		.fea-02 > div {
+			margin: 2% 0;
+		}
+
+		/*footer section*/
+  		.pixel {
+	  		height: 50px;
+			background: url(../img/pmlogo.png);
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: contain;
+			padding: 2%;
+			margin-left: 0;
+		}
+		.footer01 > div > p {
+			text-align: center;
+			font-size: .9em;
+		
+		}
+}
+
+/*Pixel 2*/
+
+@media only screen 
+  and (max-device-width: 411px) {
+
+  		/*features0 section*/
+		.sec > div {
+			margin: 2% 0;
+			font-size: 1em;
+		}
+
+		.sec02 h5, .sec03 h5, .sec04 h5 {
+			margin-top: 60%;
+		}  	
+
+  		/*features02 section*/
+
+		.fea-02 > div {
+			margin: 2% 0;
+		}
+		.fea-02 {
+    		padding: 3.5rem 0;
+    		text-align: center;
+    		margin: 0;
+		}
+
+		.spacer {
+			display: none;
+		}
+
+		.fea-02 > div {
+			margin: 2% 0;
+		}
+
+		footer {
+			height: 200px;
+			margin-bottom: 0;
+		}
+
+		.car-l h4 {
+			font-size: 1em;
+		}
+		.car-l h6 {
+			font-size: .8em;
+		}
+  }
+
+ /*iPhone 5/SE*/
+
+  @media only screen 
+  and (max-device-width: 320px) {
+
+  			/*features0 section*/
+		.sec > div {
+			margin: 2% 0;
+			font-size: 1.2em;
+		}
+
+		.sec02 h5, .sec03 h5, .sec04 h5 {
+			margin-top: 80%;
+		}
+
+		.car-l h4 {
+			font-size: 1em;
+		}
+		.car-l h6 {
+			font-size: .8em;
+		}
+  }
+
+
+  /*iPhone 6/7/8*/
+
+  @media only screen 
+  and (max-device-width: 414px) {
+
+  		.site-title {
+		    padding: 0;
+		    float: right;
+		    display: block;
+		    margin-left: 100px;
+		    font-size: 14px;
+		    text-align: left;
+		}
+
+		.social-icon, .sales {
+			padding: 0;
+			text-align: left;
+		}
+		/*features02 section*/
+
+		.fea-02 > div {
+			margin: 2% 0;
+		}
+		.fea-02 {
+    		padding: 3.5rem 0;
+    		text-align: center;
+    		margin: 0;
+		}
+
+		.spacer {
+			display: none;
+		}
+
+		.fea-02 > div {
+			margin: 2% 0;
+		}
+
+  }
+
+ 
